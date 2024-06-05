@@ -17,4 +17,7 @@ Returns all rows, with any matched data appended and unmatched data having null 
 Returns all rows from one table, matched with all rows from the other table. Will give a tableSize1*tableSize2 
 sized table, so often big.
 
+##### Self Join
+
+Joins a table to itself-must be aliased. Good for when there's a hierarchy defined inside of the table.
 
